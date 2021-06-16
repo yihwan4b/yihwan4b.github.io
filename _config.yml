@@ -1,0 +1,48 @@
+title: Hwan's Note
+description: Beetle in grass
+
+url:   https://yihwan4b.github.io
+image: # /images/logo.png
+
+show_downloads: false
+future:         true
+# timezone:       Asia/Seoul
+
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: 
+
+permalink: /:categories/:title
+
+# social
+author: Yi Hwan
+disqus_shortname: Hwan
+google_analytics:   
+
+repository: yihwan4b/yihwan4b.github.io
+
+highlighter: rouge
+markdown:    kramdown
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# root_dir: http://localhost:4000
+category_dir: categories/
+tag_dir: tag/
+categories: [C & C++, Java, Python]
+
+paginate: 10
+paginate_path: "/posts/page:num/"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
