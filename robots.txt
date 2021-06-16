@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: http://yihwan4b.github.io/sitemap.xml
